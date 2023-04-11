@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john",
+      "name": "John Doe",
+      "email": "john@doe.com",
+      "password": "john",
+      "type": "USER"
+    },
+    {
+      "id": 3,
+      "username": "sunrise",
+      "name": "Sunrise Ltd.",
+      "email": "office@sunrise.com",
+      "password": "sunrise",
+      "type": "ORGANIZATION"
+    },
+    {
+      "id": 4,
+      "username": "admin",
+      "name": "Admin Organization",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "type": "ORGANIZATION"
+    },
+    {
+      "id": 5,
+      "username": "test",
+      "name": "Test User",
+      "email": "test@kmail.com",
+      "password": "test",
+      "type": "USER"
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "Chef",
+      "description": "Love cooking? Join us!",
+      "salary": 1500,
+      "required_skills": [
+        "cooking",
+        "teamwork",
+        "patience"
+      ],
+      "is_active": true,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "title": "Software Developer",
+      "description": "Love coding? Join us!",
+      "salary": 5000,
+      "required_skills": [
+        "javascript",
+        "angular",
+        "typescript"
+      ],
+      "is_active": false,
+      "userId": 3
+    },
+    {
+      "title": "Chef",
+      "description": "Love cooking? Join us!",
+      "salary": 1508,
+      "required_skills": [
+        "cooking",
+        "teamwork",
+        "patience",
+        "test"
+      ],
+      "is_active": false,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "title": "Lawyer",
+      "description": "Looking for a new lawyer in our start-up company.",
+      "salary": 2151254,
+      "required_skills": [
+        "teamwork",
+        "knowledge of laws",
+        "soft-skills"
+      ],
+      "is_active": true,
+      "userId": 4,
+      "id": 4
+    }
+  ],
+  "ratings": [
+    {
+      "score": 1,
+      "userId": 1,
+      "offerId": 1,
+      "id": 2
+    },
+    {
+      "score": 4,
+      "userId": 1,
+      "offerId": 2,
+      "id": 3
+    },
+    {
+      "score": 3,
+      "userId": 5,
+      "offerId": 4,
+      "id": 4
+    }
+  ],
+  "candidacies": [
+    {
+      "userId": 1,
+      "offerId": 1,
+      "status": "PENDING_APPROVAL",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "offerId": 2,
+      "status": "APPROVED",
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "offerId": 4,
+      "status": "PENDING_APPROVAL",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "offerId": 1,
+      "status": "PENDING_APPROVAL",
+      "id": 5
+    }
+  ]
+}
